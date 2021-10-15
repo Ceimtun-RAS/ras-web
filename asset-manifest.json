@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ras-web/static/css/main.262d4875.chunk.css",
+    "main.js": "/ras-web/static/js/main.82e613fc.chunk.js",
+    "main.js.map": "/ras-web/static/js/main.82e613fc.chunk.js.map",
+    "runtime-main.js": "/ras-web/static/js/runtime-main.171140b2.js",
+    "runtime-main.js.map": "/ras-web/static/js/runtime-main.171140b2.js.map",
+    "static/css/2.c1256375.chunk.css": "/ras-web/static/css/2.c1256375.chunk.css",
+    "static/js/2.168893d0.chunk.js": "/ras-web/static/js/2.168893d0.chunk.js",
+    "static/js/2.168893d0.chunk.js.map": "/ras-web/static/js/2.168893d0.chunk.js.map",
+    "static/js/3.bbeab44d.chunk.js": "/ras-web/static/js/3.bbeab44d.chunk.js",
+    "static/js/3.bbeab44d.chunk.js.map": "/ras-web/static/js/3.bbeab44d.chunk.js.map",
+    "index.html": "/ras-web/index.html",
+    "static/css/2.c1256375.chunk.css.map": "/ras-web/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.262d4875.chunk.css.map": "/ras-web/static/css/main.262d4875.chunk.css.map",
+    "static/js/2.168893d0.chunk.js.LICENSE.txt": "/ras-web/static/js/2.168893d0.chunk.js.LICENSE.txt",
+    "static/media/drone.12424de6.png": "/ras-web/static/media/drone.12424de6.png",
+    "static/media/logo.6ce24c58.svg": "/ras-web/static/media/logo.6ce24c58.svg",
+    "static/media/owl.67ced600.png": "/ras-web/static/media/owl.67ced600.png",
+    "static/media/robot-main.fb7422e9.png": "/ras-web/static/media/robot-main.fb7422e9.png",
+    "static/media/simulation.d195bf9f.png": "/ras-web/static/media/simulation.d195bf9f.png",
+    "static/media/velocista.16462761.png": "/ras-web/static/media/velocista.16462761.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.171140b2.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.168893d0.chunk.js",
+    "static/css/main.262d4875.chunk.css",
+    "static/js/main.82e613fc.chunk.js"
+  ]
+}
