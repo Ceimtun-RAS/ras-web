@@ -1,0 +1,124 @@
+@import "styles/colors"
+@import "styles/anims"
+
+.landing-div
+    width: 100vw
+    height: 100vh
+    background: linear-gradient(180deg, #212C4A 0%, #02091B 100%)
+
+
+.grid-wrapper
+    padding-top: .7rem
+    height: 100%
+    display: grid
+    grid-template-columns: 10rem auto 10rem
+    grid-gap: 0px
+    grid-template-rows: 70px auto 70px
+    
+    
+    .title
+        position: relative
+        color: white
+        grid-column: 2
+        grid-row: 2
+
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: start
+        padding: 7rem
+        line-height: 0px
+        
+        $text-size: 4rem
+        h1
+            font-size: $text-size
+            margin-bottom: calc($text-size * .5)
+            font-weight: 800
+        h3 
+            line-height: -moz-block-height
+            font-weight: 500
+            font-size: calc($text-size * .5)
+
+        #learnMoreButton
+            $padding-horizontal: 30px
+
+            padding: 10px $padding-horizontal 10px $padding-horizontal
+            border-radius: .2rem
+            color: $primary-color
+            font-weight: 600
+
+            cursor: pointer
+            border: none
+            background: $secondary-color
+
+        #learnMoreButton:hover
+            background: white
+
+        .diag-decorator
+            background: $primary-color
+            height: 110vh
+            width: 450px
+            z-index: 1
+            position: absolute
+            right: 0px
+            transform: skewX(-20deg)
+
+        img#robotMain
+            position: absolute
+            z-index: 2
+            height: 95%
+            min-height: 200px
+            right: 0px
+
+    .nav
+        grid-column: 2
+        grid-row: 1
+        color: white
+        z-index: 2
+        
+    .logo
+        grid-column: 1
+        grid-row: 1
+        position: relative
+        display: flex
+        justify-content: center
+        align-items: center
+        top: 1rem
+        
+
+    .language
+        z-index: 2
+        grid-column: 3
+        grid-row: 1
+        display: flex
+    
+    
+    .social
+        
+        position: relative
+        bottom: 100px
+        grid-column: 1
+        grid-row: 3
+        display: flex
+        flex-direction: column-reverse
+        color: white
+        align-items: center
+
+        img
+            width: 20px
+            margin: 1.5rem 0px 0rem 0px
+            
+        
+
+   
+    .landing
+        grid-column: 2
+        grid-row: 2
+    
+#decoration
+    display: block
+    background: white
+    width: 1px
+    height: 20px
+    
+    padding: 150px 0px 50px 0px
