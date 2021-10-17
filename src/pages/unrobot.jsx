@@ -16,6 +16,10 @@ import { CategoryDark } from "components/UNRobot/categoryDark";
 import Velocista from 'assets/img/velocista.png';
 import Simulation from 'assets/img/simulation.png';
 import Drone from 'assets/img/drone.png';
+import Innovation from 'assets/img/innovation.png'; 
+import Minisumo from 'assets/img/minisumo.png'; 
+import UNRobotChallenge from 'assets/img/unrobotchallenge.png'; 
+
 
 
 export const UNRobot = () => {
@@ -66,10 +70,29 @@ export const UNRobot = () => {
                 img = { Simulation } />
 
             <Category 
+                title = "UNROBOT" 
+                subtitle = "CHALLENGE"
+                description = "Utilizando el simulador LiftOff, demuestra tus habilidades de vuelo en esta gran carrera simulada"
+                img = { UNRobotChallenge } 
+                ft = { MathWorks } />
+
+            <CategoryDark
+                title = "Minisumo" 
+                subtitle = "500 g"
+                description = "Utilizando el simulador LiftOff, demuestra tus habilidades de vuelo en esta gran carrera simulada"
+                img = { Minisumo } /> 
+
+            <Category 
                 title = "Drone" 
                 subtitle = "Racing"
                 description = "Utilizando el simulador LiftOff, demuestra tus habilidades de vuelo en esta gran carrera simulada"
                 img = { Drone } />
+
+            <CategoryDark
+                title = "Innovation" 
+                subtitle = "Challenge"
+                description = "Utilizando el simulador LiftOff, demuestra tus habilidades de vuelo en esta gran carrera simulada"
+                img = { Innovation } />
         </section>
     </>
     )
